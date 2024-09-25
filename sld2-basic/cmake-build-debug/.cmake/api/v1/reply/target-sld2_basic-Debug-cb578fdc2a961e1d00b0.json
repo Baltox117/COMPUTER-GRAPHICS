@@ -59,7 +59,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/include/SDL2"
+					"path" : "C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/include/SDL2"
 				}
 			],
 			"language" : "C",
@@ -102,12 +102,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\CLionProjects\\SDL2-2.30.7\\x86_64-w64-mingw32\\lib\\libSDL2main.a",
+				"fragment" : "C:\\COMPUTER-GRAPHICS\\SDL2-2.30.7\\x86_64-w64-mingw32\\lib\\libSDL2main.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\CLionProjects\\SDL2-2.30.7\\x86_64-w64-mingw32\\lib\\libSDL2.dll.a",
+				"fragment" : "C:\\COMPUTER-GRAPHICS\\SDL2-2.30.7\\x86_64-w64-mingw32\\lib\\libSDL2.dll.a",
 				"role" : "libraries"
 			},
 			{

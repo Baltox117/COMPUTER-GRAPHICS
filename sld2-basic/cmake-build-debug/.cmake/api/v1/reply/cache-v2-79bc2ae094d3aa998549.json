@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/CLionProjects/sld2-basic/cmake-build-debug"
+			"value" : "c:/COMPUTER-GRAPHICS/sld2-basic/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/CLionProjects/sld2-basic/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/COMPUTER-GRAPHICS/sld2-basic/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/CLionProjects/sld2-basic"
+			"value" : "C:/COMPUTER-GRAPHICS/sld2-basic"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1147,7 +1147,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[mingw32;-mwindows;C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a;C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2.dll.a][C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/include/SDL2][v()]"
+			"value" : "[mingw32;-mwindows;C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a;C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2.dll.a][C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/include/SDL2][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
@@ -1183,7 +1183,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a"
+			"value" : "C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a"
 		},
 		{
 			"name" : "SDL2_INCLUDE_DIR",
@@ -1195,7 +1195,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/include/SDL2"
+			"value" : "C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/include/SDL2"
 		},
 		{
 			"name" : "SDL2_LIBRARY",
@@ -1207,7 +1207,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "mingw32;-mwindows;C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a;C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2.dll.a"
+			"value" : "mingw32;-mwindows;C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a;C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2.dll.a"
 		},
 		{
 			"name" : "SDL2_LIBRARY_TEMP",
@@ -1219,7 +1219,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "mingw32;-mwindows;C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a;C:/CLionProjects/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2.dll.a"
+			"value" : "mingw32;-mwindows;C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a;C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2.dll.a"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -1243,7 +1243,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/CLionProjects/sld2-basic/cmake-build-debug"
+			"value" : "C:/COMPUTER-GRAPHICS/sld2-basic/cmake-build-debug"
 		},
 		{
 			"name" : "sld2_basic_IS_TOP_LEVEL",
@@ -1267,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/CLionProjects/sld2-basic"
+			"value" : "C:/COMPUTER-GRAPHICS/sld2-basic"
 		}
 	],
 	"kind" : "cache",
