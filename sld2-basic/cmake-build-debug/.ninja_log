@@ -1,0 +1,4 @@
+# ninja log v6
+43	1116	7489352841973375	build.ninja	d4be1d9f2c6c5b7
+21	1200	7489353288384309	CMakeFiles/sld2_basic.dir/main.c.obj	ae81c7996c74f6e3
+1203	1604	7489353300215078	sld2_basic.exe	c49b15baa1c83c94
