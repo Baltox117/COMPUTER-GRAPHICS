@@ -9,6 +9,6 @@ find_package(SDL2 REQUIRED)
 include_directories("C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/include/SDL2")
 
 
-add_executable(sld2_basic main.c)
+add_executable(sld2_basic src/main.c src/display.c)
 
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARY})
