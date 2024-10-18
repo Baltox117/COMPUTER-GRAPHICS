@@ -176,6 +176,54 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sld2_basic.dir\build.make CMakeFiles/sld2_basic.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/matrix.obj: src/matrix.c.obj
+.PHONY : src/matrix.obj
+
+# target to build an object file
+src/matrix.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sld2_basic.dir\build.make CMakeFiles/sld2_basic.dir/src/matrix.c.obj
+.PHONY : src/matrix.c.obj
+
+src/matrix.i: src/matrix.c.i
+.PHONY : src/matrix.i
+
+# target to preprocess a source file
+src/matrix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sld2_basic.dir\build.make CMakeFiles/sld2_basic.dir/src/matrix.c.i
+.PHONY : src/matrix.c.i
+
+src/matrix.s: src/matrix.c.s
+.PHONY : src/matrix.s
+
+# target to generate assembly for a file
+src/matrix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sld2_basic.dir\build.make CMakeFiles/sld2_basic.dir/src/matrix.c.s
+.PHONY : src/matrix.c.s
+
+src/vector.obj: src/vector.c.obj
+.PHONY : src/vector.obj
+
+# target to build an object file
+src/vector.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sld2_basic.dir\build.make CMakeFiles/sld2_basic.dir/src/vector.c.obj
+.PHONY : src/vector.c.obj
+
+src/vector.i: src/vector.c.i
+.PHONY : src/vector.i
+
+# target to preprocess a source file
+src/vector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sld2_basic.dir\build.make CMakeFiles/sld2_basic.dir/src/vector.c.i
+.PHONY : src/vector.c.i
+
+src/vector.s: src/vector.c.s
+.PHONY : src/vector.s
+
+# target to generate assembly for a file
+src/vector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sld2_basic.dir\build.make CMakeFiles/sld2_basic.dir/src/vector.c.s
+.PHONY : src/vector.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +239,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/matrix.obj
+	@echo ... src/matrix.i
+	@echo ... src/matrix.s
+	@echo ... src/vector.obj
+	@echo ... src/vector.i
+	@echo ... src/vector.s
 .PHONY : help
 
 

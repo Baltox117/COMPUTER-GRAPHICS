@@ -2,7 +2,7 @@
 
 SDL_Window *window = NULL;
 SDL_Renderer *renderer = NULL;
-SDL_Texture *texture = NULL;
+SDL_Texture *color_buffer_texture = NULL;
 uint32_t* color_buffer = NULL;
 int window_width = 0;
 int window_height = 0;
@@ -15,10 +15,10 @@ bool initialize_window(void){
 
   SDL_DisplayMode display_mode;
   SDL_GetCurrentDisplayMode(0, &display_mode);
-  window_width = display_mode.w;
-  window_height = display_mode.h;
+  window_width = 800;
+  window_height = 600;
 
-  window = SDL_CreateWindow(NULL, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, window_width, window_height, SDL_WINDOW_BORDERLESS);
+  window = SDL_CreateWindow(NULL, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, window_width, window_height, 0);
 
   if (!window) {
     fprintf(stderr, "Error creating SDL window. \n");
@@ -31,7 +31,13 @@ bool initialize_window(void){
     return false;
   }
 
-  SDL_SetWindowFullscreen(window, SDL_WINDOW_FULLSCREEN);
+  color_buffer_texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA32, SDL_TEXTUREACCESS_STREAMING, window_width, window_height);
+  if (!color_buffer_texture) {
+    fprintf(stderr, "Error creating SDL texture. \n");
+    return false;
+  }
+
+  //SDL_SetWindowFullscreen(window, SDL_WINDOW_FULLSCREEN);
   return true;
 }
 

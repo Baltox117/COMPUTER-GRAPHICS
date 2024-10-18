@@ -76,7 +76,7 @@ void update(void) {
     cube_rotation.x += 0.01;
     cube_rotation.y += 0.01;
     cube_rotation.z += 0.01;
-    cube_translation.z = 5;
+    cube_translation.z = 2;
 
     mat4_t scale_matrix = mat4_make_scale(cube_scale.x, cube_scale.y, cube_scale.z);
     mat4_t rotation_matrix_x = mat4_make_rotation_x(cube_rotation.x);

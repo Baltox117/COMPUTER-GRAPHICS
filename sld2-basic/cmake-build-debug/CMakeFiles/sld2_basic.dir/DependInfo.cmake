@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/COMPUTER-GRAPHICS/sld2-basic/src/display.c" "CMakeFiles/sld2_basic.dir/src/display.c.obj" "gcc" "CMakeFiles/sld2_basic.dir/src/display.c.obj.d"
   "C:/COMPUTER-GRAPHICS/sld2-basic/src/main.c" "CMakeFiles/sld2_basic.dir/src/main.c.obj" "gcc" "CMakeFiles/sld2_basic.dir/src/main.c.obj.d"
+  "C:/COMPUTER-GRAPHICS/sld2-basic/src/matrix.c" "CMakeFiles/sld2_basic.dir/src/matrix.c.obj" "gcc" "CMakeFiles/sld2_basic.dir/src/matrix.c.obj.d"
+  "C:/COMPUTER-GRAPHICS/sld2-basic/src/vector.c" "CMakeFiles/sld2_basic.dir/src/vector.c.obj" "gcc" "CMakeFiles/sld2_basic.dir/src/vector.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

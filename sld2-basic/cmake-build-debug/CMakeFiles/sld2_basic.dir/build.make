@@ -98,23 +98,57 @@ CMakeFiles/sld2_basic.dir/src/display.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sld2_basic.dir/src/display.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\COMPUTER-GRAPHICS\sld2-basic\src\display.c -o CMakeFiles\sld2_basic.dir\src\display.c.s
 
+CMakeFiles/sld2_basic.dir/src/matrix.c.obj: CMakeFiles/sld2_basic.dir/flags.make
+CMakeFiles/sld2_basic.dir/src/matrix.c.obj: CMakeFiles/sld2_basic.dir/includes_C.rsp
+CMakeFiles/sld2_basic.dir/src/matrix.c.obj: C:/COMPUTER-GRAPHICS/sld2-basic/src/matrix.c
+CMakeFiles/sld2_basic.dir/src/matrix.c.obj: CMakeFiles/sld2_basic.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\COMPUTER-GRAPHICS\sld2-basic\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sld2_basic.dir/src/matrix.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sld2_basic.dir/src/matrix.c.obj -MF CMakeFiles\sld2_basic.dir\src\matrix.c.obj.d -o CMakeFiles\sld2_basic.dir\src\matrix.c.obj -c C:\COMPUTER-GRAPHICS\sld2-basic\src\matrix.c
+
+CMakeFiles/sld2_basic.dir/src/matrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sld2_basic.dir/src/matrix.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\COMPUTER-GRAPHICS\sld2-basic\src\matrix.c > CMakeFiles\sld2_basic.dir\src\matrix.c.i
+
+CMakeFiles/sld2_basic.dir/src/matrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sld2_basic.dir/src/matrix.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\COMPUTER-GRAPHICS\sld2-basic\src\matrix.c -o CMakeFiles\sld2_basic.dir\src\matrix.c.s
+
+CMakeFiles/sld2_basic.dir/src/vector.c.obj: CMakeFiles/sld2_basic.dir/flags.make
+CMakeFiles/sld2_basic.dir/src/vector.c.obj: CMakeFiles/sld2_basic.dir/includes_C.rsp
+CMakeFiles/sld2_basic.dir/src/vector.c.obj: C:/COMPUTER-GRAPHICS/sld2-basic/src/vector.c
+CMakeFiles/sld2_basic.dir/src/vector.c.obj: CMakeFiles/sld2_basic.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\COMPUTER-GRAPHICS\sld2-basic\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/sld2_basic.dir/src/vector.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sld2_basic.dir/src/vector.c.obj -MF CMakeFiles\sld2_basic.dir\src\vector.c.obj.d -o CMakeFiles\sld2_basic.dir\src\vector.c.obj -c C:\COMPUTER-GRAPHICS\sld2-basic\src\vector.c
+
+CMakeFiles/sld2_basic.dir/src/vector.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sld2_basic.dir/src/vector.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\COMPUTER-GRAPHICS\sld2-basic\src\vector.c > CMakeFiles\sld2_basic.dir\src\vector.c.i
+
+CMakeFiles/sld2_basic.dir/src/vector.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sld2_basic.dir/src/vector.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\COMPUTER-GRAPHICS\sld2-basic\src\vector.c -o CMakeFiles\sld2_basic.dir\src\vector.c.s
+
 # Object files for target sld2_basic
 sld2_basic_OBJECTS = \
 "CMakeFiles/sld2_basic.dir/src/main.c.obj" \
-"CMakeFiles/sld2_basic.dir/src/display.c.obj"
+"CMakeFiles/sld2_basic.dir/src/display.c.obj" \
+"CMakeFiles/sld2_basic.dir/src/matrix.c.obj" \
+"CMakeFiles/sld2_basic.dir/src/vector.c.obj"
 
 # External object files for target sld2_basic
 sld2_basic_EXTERNAL_OBJECTS =
 
 sld2_basic.exe: CMakeFiles/sld2_basic.dir/src/main.c.obj
 sld2_basic.exe: CMakeFiles/sld2_basic.dir/src/display.c.obj
+sld2_basic.exe: CMakeFiles/sld2_basic.dir/src/matrix.c.obj
+sld2_basic.exe: CMakeFiles/sld2_basic.dir/src/vector.c.obj
 sld2_basic.exe: CMakeFiles/sld2_basic.dir/build.make
 sld2_basic.exe: C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a
 sld2_basic.exe: C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2.dll.a
 sld2_basic.exe: CMakeFiles/sld2_basic.dir/linkLibs.rsp
 sld2_basic.exe: CMakeFiles/sld2_basic.dir/objects1.rsp
 sld2_basic.exe: CMakeFiles/sld2_basic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\COMPUTER-GRAPHICS\sld2-basic\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable sld2_basic.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\COMPUTER-GRAPHICS\sld2-basic\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable sld2_basic.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sld2_basic.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
