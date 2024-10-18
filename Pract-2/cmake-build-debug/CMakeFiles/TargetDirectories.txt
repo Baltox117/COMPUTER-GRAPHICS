@@ -1,0 +1,3 @@
+C:/COMPUTER-GRAPHICS/Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir
+C:/COMPUTER-GRAPHICS/Pract-2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/COMPUTER-GRAPHICS/Pract-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
