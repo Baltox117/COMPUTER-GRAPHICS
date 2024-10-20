@@ -97,5 +97,6 @@ mat4_t mat4_mul_mat4(mat4_t a, mat4_t b) {
                              a.m[i][3] * b.m[3][j];
         }
     }
+
     return result;
 }
