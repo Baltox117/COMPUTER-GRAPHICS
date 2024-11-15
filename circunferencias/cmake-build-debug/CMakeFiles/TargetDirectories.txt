@@ -1,0 +1,3 @@
+C:/COMPUTER-GRAPHICS/circunferencias/cmake-build-debug/CMakeFiles/circunferencias.dir
+C:/COMPUTER-GRAPHICS/circunferencias/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/COMPUTER-GRAPHICS/circunferencias/cmake-build-debug/CMakeFiles/rebuild_cache.dir

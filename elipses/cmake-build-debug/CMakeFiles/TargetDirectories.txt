@@ -1,0 +1,3 @@
+C:/COMPUTER-GRAPHICS/elipses/cmake-build-debug/CMakeFiles/elipses.dir
+C:/COMPUTER-GRAPHICS/elipses/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/COMPUTER-GRAPHICS/elipses/cmake-build-debug/CMakeFiles/rebuild_cache.dir

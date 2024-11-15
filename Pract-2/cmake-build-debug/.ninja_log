@@ -1,3 +1,18 @@
 # ninja log v6
-2	514	7509838587709721	CMakeFiles/Pract_2.dir/main.c.obj	40327d2815390292
 516	631	7509838592850891	Pract_2.exe	50dac763af7d95b6
+30	217	7533882374271742	CMakeFiles/Pract_2.dir/src/array.c.obj	b22b96925142d9f0
+13	247	7533882374111759	CMakeFiles/Pract_2.dir/src/vector.c.obj	ed5049283b3f87d9
+9	836	7533882374061754	CMakeFiles/Pract_2.dir/src/triangle.c.obj	5d35ff6354bff45d
+3	853	7533882374001728	CMakeFiles/Pract_2.dir/src/main.c.obj	ca030d23f1462e0f
+18	884	7533882374151731	CMakeFiles/Pract_2.dir/src/mesh.c.obj	7eca1c2bb0c4b62e
+23	895	7533882374201741	CMakeFiles/Pract_2.dir/src/display.c.obj	d48d38794265cc8e
+895	1037	7533882382925312	Pract_2.exe	b9496430cbc0333d
+7	537	7533954067813280	CMakeFiles/Pract_2.dir/src/main.c.obj	ca030d23f1462e0f
+538	657	7533954073121260	Pract_2.exe	b9496430cbc0333d
+9	854	7533962870567062	CMakeFiles/Pract_2.dir/src/main.c.obj	ca030d23f1462e0f
+854	1037	7533962879021586	Pract_2.exe	b9496430cbc0333d
+7	588	7533964262077164	CMakeFiles/Pract_2.dir/src/main.c.obj	ca030d23f1462e0f
+589	702	7533964267891686	Pract_2.exe	b9496430cbc0333d
+12	652	7533968112997654	CMakeFiles/Pract_2.dir/src/mesh.c.obj	7eca1c2bb0c4b62e
+7	664	7533968112947674	CMakeFiles/Pract_2.dir/src/main.c.obj	ca030d23f1462e0f
+664	780	7533968119520096	Pract_2.exe	b9496430cbc0333d

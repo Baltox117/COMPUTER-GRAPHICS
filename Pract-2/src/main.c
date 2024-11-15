@@ -6,34 +6,41 @@
 #include "display.h"
 #include "vector.h"
 #include "mesh.h"
-#define N_POINTS (9 * 9 * 9)
-// Eliminar esta línea, ya está definido en mesh.h
-// #define N_CUBE_VERTICES 8
 
-vec3_t cube_points[N_POINTS];
-vec2_t projected_points[N_CUBE_VERTICES]; // Ajuste aquí, usamos los vértices reales del cubo
-
+// Variables globales
 vec3_t cube_rotation = {0, 0, 0};
-vec3_t cube_translation = {0, 0, 0};
-vec3_t cube_scale = {1, 1, 1};
-
+vec3_t cube_translation = {0, 0, 5};  // Inicialmente alejado en Z
 float fov_factor = 720;
 
 bool is_running = false;
 int previous_frame_time = 0;
 
-void setup(void) {
+// Prototipos
+void setup(char* obj_filename);
+void process_input(void);
+void update(void);
+void render(void);
+
+// Configuración inicial
+void setup(char* obj_filename) {
     // Inicializar el buffer de color
     color_buffer = (uint32_t*)malloc(sizeof(uint32_t) * window_width * window_height);
-
     if (!color_buffer) {
         fprintf(stderr, "Error allocating memory for frame buffer.\n");
     }
 
-    // Cargar los datos del cubo
-    load_cube_mesh_data();  // En lugar de generar puntos, carga los datos del cubo
+    // Cargar datos del archivo .obj o el cubo predeterminado
+    if (obj_filename) {
+        printf("Cargando modelo: %s\n", obj_filename);
+        load_obj_file_data(obj_filename);
+    } else {
+        printf("No se proporcionó archivo .obj. Cargando cubo predeterminado.\n");
+        //load_cube_mesh_data();
+        load_pyramid_mesh_data();
+    }
 }
 
+// Procesar entrada del usuario
 void process_input(void) {
     SDL_Event event;
     SDL_PollEvent(&event);
@@ -49,73 +56,62 @@ void process_input(void) {
     }
 }
 
-// Proyección en perspectiva
-vec2_t projectP(vec3_t point) {
-    vec2_t projected_point;
-    float z_inv = 1.0f / point.z;
-    projected_point.x = point.x * z_inv * fov_factor;
-    projected_point.y = point.y * z_inv * fov_factor;
-    return projected_point;
-}
-
+// Actualizar la lógica del programa
 void update(void) {
-    // Aumentar las rotaciones para animar el cubo
-    cube_rotation.x += 0.01;
-    cube_rotation.y += 0.01;
-    cube_rotation.z += 0.01;
-
-    // Definir la traslación en Z para que el cubo no esté demasiado cerca de la cámara
-    cube_translation.z = 5;
-
-    // Para cada vértice del cubo, aplicar transformaciones y proyectarlo en 2D
-    for (int i = 0; i < N_CUBE_VERTICES; i++) {
-        // Obtener el vértice original del cubo
-        vec3_t original_vertex = cube_vertices[i];
-
-        // Aplicar rotación en X, Y y Z
-        vec3_t rotated_vertex = vec3_rotate_x(original_vertex, cube_rotation.x);
-        rotated_vertex = vec3_rotate_y(rotated_vertex, cube_rotation.y);
-        rotated_vertex = vec3_rotate_z(rotated_vertex, cube_rotation.z);
-
-        // Aplicar traslación en Z para alejar el cubo de la cámara
-        rotated_vertex.z += cube_translation.z;
-
-        // Proyectar el vértice 3D transformado en la pantalla 2D
-        vec2_t projected_point = projectP(rotated_vertex);
-
-        // Guardar el punto proyectado en el array de puntos proyectados
-        projected_points[i] = projected_point;
-    }
+    cube_rotation.x += 0.01f;
+    cube_rotation.y += 0.01f;
+    cube_rotation.z += 0.01f;
 }
 
+// Renderizar el modelo
 void render(void) {
-    // Borra la pantalla
     clear_color_buffer(0xFF000000); // Fondo negro
 
-    // Dibuja las caras del cubo utilizando líneas
-    for (int i = 0; i < N_CUBE_FACES; i++) {
-        face_t face = cube_faces[i];
+    for (int i = 0; i < array_length(mesh.faces); i++) {
+        face_t face = mesh.faces[i];
 
-        vec2_t points[3];
-        points[0] = projected_points[face.a - 1]; // Los índices empiezan en 1
-        points[1] = projected_points[face.b - 1];
-        points[2] = projected_points[face.c - 1];
+        vec3_t vertices[3] = {
+            mesh.vertices[face.a - 1],
+            mesh.vertices[face.b - 1],
+            mesh.vertices[face.c - 1],
+        };
 
-        // Dibuja los bordes del triángulo
-        draw_line(points[0].x + window_width / 2, points[0].y + window_height / 2, points[1].x + window_width / 2, points[1].y + window_height / 2, face.color);
-        draw_line(points[1].x + window_width / 2, points[1].y + window_height / 2, points[2].x + window_width / 2, points[2].y + window_height / 2, face.color);
-        draw_line(points[2].x + window_width / 2, points[2].y + window_height / 2, points[0].x + window_width / 2, points[0].y + window_height / 2, face.color);
+        vec2_t projected_points[3];
+        for (int j = 0; j < 3; j++) {
+            vec3_t transformed_vertex = vec3_rotate_x(vertices[j], cube_rotation.x);
+            transformed_vertex = vec3_rotate_y(transformed_vertex, cube_rotation.y);
+            transformed_vertex = vec3_rotate_z(transformed_vertex, cube_rotation.z);
+            transformed_vertex.z += cube_translation.z;
+
+            projected_points[j] = (vec2_t) {
+                .x = transformed_vertex.x * fov_factor / transformed_vertex.z,
+                .y = transformed_vertex.y * fov_factor / transformed_vertex.z
+            };
+        }
+
+        draw_triangle(
+            projected_points[0].x + window_width / 2, projected_points[0].y + window_height / 2,
+            projected_points[1].x + window_width / 2, projected_points[1].y + window_height / 2,
+            projected_points[2].x + window_width / 2, projected_points[2].y + window_height / 2,
+            face.color
+        );
     }
 
-    // Renderiza el buffer
     render_color_buffer();
     SDL_RenderPresent(renderer);
 }
 
-int main(int argc, char *argv[]) {
+// Punto de entrada principal
+int main(int argc, char* argv[]) {
+    char* obj_filename = NULL;
+
+    if (argc > 1) {
+        obj_filename = argv[1];  // Tomar el archivo .obj de los argumentos
+    }
+
     is_running = initialize_window();
 
-    setup();
+    setup(obj_filename);
 
     while (is_running) {
         previous_frame_time = SDL_GetTicks();
@@ -133,3 +129,4 @@ int main(int argc, char *argv[]) {
     destroy_window();
     return 0;
 }
+

@@ -1,0 +1,5 @@
+# ninja log v6
+2	262	7533933204424613	build.ninja	9871d24069cc26db
+45	597	7533933205564640	CMakeFiles/elipses.dir/src/main.c.obj	7709c1090b1e5104
+49	599	7533933205604643	CMakeFiles/elipses.dir/src/display.c.obj	d67d509fa4cc644e
+599	700	7533933211099135	elipses.exe	179d50da9b1128dc
