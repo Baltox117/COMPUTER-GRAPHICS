@@ -98,6 +98,13 @@ build CMakeFiles/Pract_3.dir/src/triangle_fill.c.obj: C_COMPILER__Pract_3_unscan
   OBJECT_DIR = CMakeFiles\Pract_3.dir
   OBJECT_FILE_DIR = CMakeFiles\Pract_3.dir\src
 
+build CMakeFiles/Pract_3.dir/src/shading.c.obj: C_COMPILER__Pract_3_unscanned_Debug C$:/COMPUTER-GRAPHICS/Pract_3/src/shading.c || cmake_object_order_depends_target_Pract_3
+  DEP_FILE = CMakeFiles\Pract_3.dir\src\shading.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/include/SDL2
+  OBJECT_DIR = CMakeFiles\Pract_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pract_3.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Pract_3
@@ -106,7 +113,7 @@ build CMakeFiles/Pract_3.dir/src/triangle_fill.c.obj: C_COMPILER__Pract_3_unscan
 #############################################
 # Link the executable Pract_3.exe
 
-build Pract_3.exe: C_EXECUTABLE_LINKER__Pract_3_Debug CMakeFiles/Pract_3.dir/src/main.c.obj CMakeFiles/Pract_3.dir/src/triangle.c.obj CMakeFiles/Pract_3.dir/src/vector.c.obj CMakeFiles/Pract_3.dir/src/mesh.c.obj CMakeFiles/Pract_3.dir/src/display.c.obj CMakeFiles/Pract_3.dir/src/array.c.obj CMakeFiles/Pract_3.dir/src/triangle_fill.c.obj | C$:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a C$:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2.dll.a
+build Pract_3.exe: C_EXECUTABLE_LINKER__Pract_3_Debug CMakeFiles/Pract_3.dir/src/main.c.obj CMakeFiles/Pract_3.dir/src/triangle.c.obj CMakeFiles/Pract_3.dir/src/vector.c.obj CMakeFiles/Pract_3.dir/src/mesh.c.obj CMakeFiles/Pract_3.dir/src/display.c.obj CMakeFiles/Pract_3.dir/src/array.c.obj CMakeFiles/Pract_3.dir/src/triangle_fill.c.obj CMakeFiles/Pract_3.dir/src/shading.c.obj | C$:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a C$:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2.dll.a
   FLAGS = -g
   LINK_LIBRARIES = -lmingw32  -mwindows  C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2main.a  C:/COMPUTER-GRAPHICS/SDL2-2.30.7/x86_64-w64-mingw32/lib/libSDL2.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Pract_3.dir

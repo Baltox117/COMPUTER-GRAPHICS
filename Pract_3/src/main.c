@@ -7,6 +7,7 @@
 #include "vector.h"
 #include "mesh.h"
 #include "triangle_fill.h"  // Incluir el encabezado para utilizar fill_triangle
+#include "shading.h"
 
 // Variables globales
 vec3_t cube_rotation = {0, 0, 0};
@@ -42,6 +43,7 @@ void setup(char* obj_filename) {
         printf("No se proporcionó archivo .obj. Cargando cubo predeterminado.\n");
         load_cube_mesh_data();
     }
+    //setup_lighting();
 }
 
 // Procesar entrada del usuario
@@ -100,6 +102,8 @@ void render(void) {
         };
 
         vec2_t projected_points[3];
+        vec3_t transformed_vertices[3];
+
         for (int j = 0; j < 3; j++) {
             vec3_t transformed_vertex = vec3_rotate_x(vertices[j], cube_rotation.x);
             transformed_vertex = vec3_rotate_y(transformed_vertex, cube_rotation.y);
@@ -118,32 +122,36 @@ void render(void) {
                 };
             }
         }
+        // Calcular la normal de la cara
+        vec3_t normal = calculate_normal(
+            transformed_vertices[0],
+            transformed_vertices[1],
+            transformed_vertices[2]
+        );
+        normal = normalize(normal);
 
-        if (render_triangles) {
-            fill_triangle(
-                projected_points[0].x + window_width / 2, projected_points[0].y + window_height / 2,
-                projected_points[1].x + window_width / 2, projected_points[1].y + window_height / 2,
-                projected_points[2].x + window_width / 2, projected_points[2].y + window_height / 2,
-                face.color
-            );
+        // Dirección de la cámara
+        vec3_t camera_direction = {0, 0, -1};
+
+        // Aplicar back-face culling
+        if (vec3_dot(normal, camera_direction) >= 0) {
+            continue; // Saltar esta cara porque no es visible
         }
 
-        if (render_edges) {
-            draw_triangle(
-                projected_points[0].x + window_width / 2, projected_points[0].y + window_height / 2,
-                projected_points[1].x + window_width / 2, projected_points[1].y + window_height / 2,
-                projected_points[2].x + window_width / 2, projected_points[2].y + window_height / 2,
-                face.color
-            );
-        }
+        // Calcular la intensidad de la luz
+        float intensity = fmaxf(0.0f, vec3_dot(normal, light_direction));
 
-        if (render_vertices) {
-            for (int j = 0; j < 3; j++) {
-                int x = projected_points[j].x + window_width / 2;
-                int y = projected_points[j].y + window_height / 2;
-                draw_rect(x - 2, y - 2, 4, 4, 0xFFFFFFFF);
-            }
-        }
+        // Aplicar la intensidad al color
+        uint32_t shaded_color = light_apply_intensity(face.color, intensity);
+
+        uint32_t test_color = light_apply_intensity(0xFF0000, 0.5f);
+
+        fill_triangle(
+        projected_points[0].x + window_width / 2, projected_points[0].y + window_height / 2,
+        projected_points[1].x + window_width / 2, projected_points[1].y + window_height / 2,
+        projected_points[2].x + window_width / 2, projected_points[2].y + window_height / 2,
+        test_color
+        );
     }
 
     render_color_buffer();
