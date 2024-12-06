@@ -1,15 +1,18 @@
 # ninja log v6
 24	141	7533972778808516	CMakeFiles/Pract_3.dir/src/array.c.obj	2cb23a1ad29406ab
-19	628	7533972778758557	CMakeFiles/Pract_3.dir/src/display.c.obj	301053f6645aa690
 6	582	7533972778627589	CMakeFiles/Pract_3.dir/src/triangle.c.obj	4b5c26e0d556c024
+19	628	7533972778758557	CMakeFiles/Pract_3.dir/src/display.c.obj	301053f6645aa690
 10	144	7533972778667603	CMakeFiles/Pract_3.dir/src/vector.c.obj	f916dbfa91f53c99
-15	628	7533972778707611	CMakeFiles/Pract_3.dir/src/mesh.c.obj	b57a535214890be5
-6	850	7533986465748220	CMakeFiles/Pract_3.dir/src/main.c.obj	7934a71cff0528d6
-635	757	7533972784914350	Pract_3.exe	d8a73a086f595757
-1	286	7533986664588236	build.ninja	d44ce8af1327b5ec
-51	591	7533986665930035	CMakeFiles/Pract_3.dir/src/triangle_fill.c.obj	cb490bc7aed62a55
-592	700	7533986671337061	Pract_3.exe	469d36cfdfedb77
-5	564	7534000171259307	CMakeFiles/Pract_3.dir/src/mesh.c.obj	b57a535214890be5
-565	742	7534000176849180	Pract_3.exe	469d36cfdfedb77
 5	535	7534000760032039	CMakeFiles/Pract_3.dir/src/mesh.c.obj	b57a535214890be5
+6	850	7533986465748220	CMakeFiles/Pract_3.dir/src/main.c.obj	7934a71cff0528d6
+1	286	7534049447774711	build.ninja	d44ce8af1327b5ec
 535	646	7534000765337884	Pract_3.exe	469d36cfdfedb77
+51	591	7533986665930035	CMakeFiles/Pract_3.dir/src/triangle_fill.c.obj	cb490bc7aed62a55
+31	172	7534049531731511	CMakeFiles/Pract_3.dir/src/vector.c.obj	4105549e82f6dc99
+51	176	7534049531928649	CMakeFiles/Pract_3.dir/src/array.c.obj	83fb20a2347dfad8
+25	711	7534049531671514	CMakeFiles/Pract_3.dir/src/triangle.c.obj	424d480a2493ee1c
+40	732	7534049531816335	CMakeFiles/Pract_3.dir/src/mesh.c.obj	63eb09cf3b7073bc
+57	742	7534049531988646	CMakeFiles/Pract_3.dir/src/triangle_fill.c.obj	941c08d1d6d30c62
+18	751	7534049531599793	CMakeFiles/Pract_3.dir/src/main.c.obj	a252950ed296861b
+46	754	7534049531876775	CMakeFiles/Pract_3.dir/src/display.c.obj	223d559048823f2
+754	895	7534049538959222	Pract_3.exe	150aa02ce4319e0

@@ -1,7 +1,8 @@
 # ninja log v6
-5	551	7533923107333352	CMakeFiles/circunferencias.dir/src/main.c.obj	ba63ea3072454d7b
-551	651	7533923112791149	circunferencias.exe	81072753dcadc565
-2	279	7533923472312791	build.ninja	2f0ccdddd5af60d9
-40	565	7533922224511118	CMakeFiles/circunferencias.dir/src/display.c.obj	22d581f87bfd20a0
 5	537	7533923965536897	CMakeFiles/circunferencias.dir/src/main.c.obj	ba63ea3072454d7b
 537	640	7533923970849910	circunferencias.exe	81072753dcadc565
+2	279	7534039924824841	build.ninja	2f0ccdddd5af60d9
+40	565	7533922224511118	CMakeFiles/circunferencias.dir/src/display.c.obj	22d581f87bfd20a0
+17	740	7534039966372245	CMakeFiles/circunferencias.dir/src/main.c.obj	3b90697c1916b17c
+25	746	7534039966452277	CMakeFiles/circunferencias.dir/src/display.c.obj	986e655f3934d524
+746	876	7534039973660003	circunferencias.exe	d8b5780d4f70e925

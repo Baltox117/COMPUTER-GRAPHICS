@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Polygon_filling" targetName="Polygon_filling" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e02611f-d32f-478a-ac9b-904a705982e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-26b16e01d9d3c79cc662.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7d3f36b694a4a8ced36d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-11-15T17-13-33-0017.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-cda0c955fbb914d2ef7a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Polygon_filling.dir/src/display.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Polygon_filling.dir/src/display.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Polygon_filling.dir/src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Polygon_filling.dir/src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Polygon_filling.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Polygon_filling.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7809e6dae60a4401266e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-5e90fd693f8306ea3b9d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/.cmake/api/v1/reply/index-2024-11-15T15-37-07-0609.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-cda0c955fbb914d2ef7a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir/src/array.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir/src/array.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir/src/display.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir/src/display.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir/src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir/src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir/src/mesh.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir/src/mesh.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir/src/triangle.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir/src/triangle.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir/src/vector.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/Pract_2.dir/src/vector.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/Pract_2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/Pract_2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract-2/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract-2/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a1840e48ecc2caec1391.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-e19c44cf1fc80b1c2f92.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/.cmake/api/v1/reply/index-2024-11-15T18-31-06-0531.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-cda0c955fbb914d2ef7a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/array.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/array.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/display.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/display.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/mesh.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/mesh.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/triangle.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/triangle.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/triangle_fill.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/triangle_fill.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/vector.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/Pract_3.dir/src/vector.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/Pract_3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/Pract_3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Pract_3/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/.cmake/api/v1/reply/cache-v2-8e5d111ecc86125995a0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-8fb907c6ae7bb09af6fd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/.cmake/api/v1/reply/index-2024-11-15T16-45-47-0298.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-cda0c955fbb914d2ef7a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/circunferencias.dir/src/display.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/circunferencias.dir/src/display.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/circunferencias.dir/src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/circunferencias.dir/src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/circunferencias.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/circunferencias.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../circunferencias/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b11568da2c16058ed3d1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-4a4f7dc2e1d904d873bb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/.cmake/api/v1/reply/index-2024-11-15T17-02-00-0504.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-cda0c955fbb914d2ef7a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/elipses.dir/src/display.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/elipses.dir/src/display.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/elipses.dir/src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/elipses.dir/src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elipses/cmake-build-debug/elipses.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../elipses/cmake-build-debug/elipses.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sld2-basic/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../sld2-basic/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sld2-basic/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../sld2-basic/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sld2-basic/cmake-build-debug/CMakeFiles/sld2_basic.dir/src/matrix.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../sld2-basic/cmake-build-debug/CMakeFiles/sld2_basic.dir/src/matrix.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sld2-basic/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../sld2-basic/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sld2-basic/cmake-build-debug/sld2_basic.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../sld2-basic/cmake-build-debug/sld2_basic.exe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="2.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2otuS6UQPInqMkNO28tXH8VZrcJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.Polygon_filling.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "templade",
+    "last_opened_file_path": "C:/COMPUTER-GRAPHICS/Pract-2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Polygon_filling" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Polygon_filling" TARGET_NAME="Polygon_filling" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Polygon_filling" RUN_TARGET_NAME="Polygon_filling">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e02611f-d32f-478a-ac9b-904a705982e7" name="Changes" comment="" />
+      <created>1731701189376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731701189376</updated>
+      <workItem from="1731701190567" duration="1727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>

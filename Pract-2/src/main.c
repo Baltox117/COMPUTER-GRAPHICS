@@ -35,8 +35,8 @@ void setup(char* obj_filename) {
         load_obj_file_data(obj_filename);
     } else {
         printf("No se proporcionó archivo .obj. Cargando cubo predeterminado.\n");
-        //load_cube_mesh_data();
-        load_pyramid_mesh_data();
+        load_cube_mesh_data();
+        //load_pyramid_mesh_data();
     }
 }
 

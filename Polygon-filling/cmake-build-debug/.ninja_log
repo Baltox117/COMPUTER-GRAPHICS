@@ -1,6 +1,7 @@
 # ninja log v6
 6	651	7533940454687195	CMakeFiles/Polygon_filling.dir/src/display.c.obj	18fa1d60abdd1150
-2	658	7533940454647134	CMakeFiles/Polygon_filling.dir/src/main.c.obj	31e3b92424a7a4c
-658	752	7533940461209774	Polygon_filling.exe	30bfbedc28803ae2
 17	530	7533946564675906	CMakeFiles/Polygon_filling.dir/src/main.c.obj	31e3b92424a7a4c
 531	627	7533946569812614	Polygon_filling.exe	30bfbedc28803ae2
+26	663	7534044145838878	CMakeFiles/Polygon_filling.dir/src/display.c.obj	5e55e5de02514f85
+18	674	7534044145767824	CMakeFiles/Polygon_filling.dir/src/main.c.obj	50975633cc12643f
+674	807	7534044152310683	Polygon_filling.exe	c39160b051e7bde8
